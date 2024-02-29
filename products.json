@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Iphone 10",
+        "price": 130000,
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "iWatch",
+        "price": 60000,
+        "featured": false,
+        "company": "apple"
+    },
+    {
+        "name": "Vision Pro",
+        "price": 400000,
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "S23 Ultra",
+        "price": 160000,
+        "featured": true,
+        "company": "samsung"
+    }
+]
