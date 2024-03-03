@@ -1,8 +1,10 @@
 require("dotenv").config();
+const cors = require('cors');
 const express = require("express")
 const app = express();
 const connectDB = require("./db/connect");
 const PORT = process.env.PORT || 5000;
+app.use(cors());
 app.get("/", (req, res)=>{
     res.send("Hello Backend is Working");
 })
